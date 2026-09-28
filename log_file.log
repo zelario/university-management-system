@@ -1,0 +1,195 @@
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhcGluaGEifQ.6AwztXHZmpDLBkp091w0EzXY24wPQpgLWqCzk-H82tQ
+DEBUG:logger:GET /dbproj/report - monthly report
+INFO:logger:GET /dbproj/report - monthly report generated
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+DEBUG:logger:PUT /dbproj/user - username: Capinha
+INFO:logger:PUT /dbproj/user - user Capinha logged
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhcGluaGEifQ.6AwztXHZmpDLBkp091w0EzXY24wPQpgLWqCzk-H82tQ
+DEBUG:logger:POST /dbproj/register/staff - username: staff, email: staff@gmail.com
+INFO:logger:POST /dbproj/register - Staff staff registered
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhcGluaGEifQ.6AwztXHZmpDLBkp091w0EzXY24wPQpgLWqCzk-H82tQ
+DEBUG:logger:GET /dbproj/degree_details/OS - degree_id: OS
+INFO:logger:GET /dbproj/degree_details - degree OS details retrieved
+INFO:logger:API stubs online: http://127.0.0.1:8080
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhcGluaGEifQ.6AwztXHZmpDLBkp091w0EzXY24wPQpgLWqCzk-H82tQ
+DEBUG:logger:POST /dbproj/register/instructor - username: instructor1, email: instructor1@example.com
+INFO:logger:POST /dbproj/register - Instructor instructor1 registered
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhcGluaGEifQ.6AwztXHZmpDLBkp091w0EzXY24wPQpgLWqCzk-H82tQ
+DEBUG:logger:POST /dbproj/register/instructor - username: instructor1, email: instructor1@example.com
+WARNING:logger:POST /dbproj/register - username already exists
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhcGluaGEifQ.6AwztXHZmpDLBkp091w0EzXY24wPQpgLWqCzk-H82tQ
+DEBUG:logger:GET /dbproj/degree_details/OS - degree_id: OS
+INFO:logger:GET /dbproj/degree_details - degree OS details retrieved
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhcGluaGEifQ.6AwztXHZmpDLBkp091w0EzXY24wPQpgLWqCzk-H82tQ
+DEBUG:logger:GET /dbproj/degree_details/OS - degree_id: OS
+INFO:logger:GET /dbproj/degree_details - degree OS details retrieved
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhcGluaGEifQ.6AwztXHZmpDLBkp091w0EzXY24wPQpgLWqCzk-H82tQ
+DEBUG:logger:GET /dbproj/degree_details/OS - degree_id: OS
+INFO:logger:GET /dbproj/degree_details - degree OS details retrieved
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+DEBUG:logger:PUT /dbproj/user - username: Capinha
+INFO:logger:PUT /dbproj/user - user Capinha logged
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhcGluaGEifQ.6AwztXHZmpDLBkp091w0EzXY24wPQpgLWqCzk-H82tQ
+DEBUG:logger:GET /dbproj/student_details/1 - student_id: 1
+INFO:logger:GET /dbproj/student_details - student ('Afonso',) details retrieved
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhcGluaGEifQ.6AwztXHZmpDLBkp091w0EzXY24wPQpgLWqCzk-H82tQ
+DEBUG:logger:GET /dbproj/degree_details/OS - degree_id: OS
+INFO:logger:GET /dbproj/degree_details - degree OS details retrieved
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+DEBUG:logger:PUT /dbproj/user - username: Capinha
+INFO:logger:PUT /dbproj/user - user Capinha logged
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhcGluaGEifQ.6AwztXHZmpDLBkp091w0EzXY24wPQpgLWqCzk-H82tQ
+DEBUG:logger:POST /dbproj/register/student - username: Nelson, email: nelson@gmail.com, district: Braga, balance: 3000
+INFO:logger:POST /dbproj/register - Student Nelson registered
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+DEBUG:logger:PUT /dbproj/user - username: Capinha
+INFO:logger:PUT /dbproj/user - user Capinha logged
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhcGluaGEifQ.6AwztXHZmpDLBkp091w0EzXY24wPQpgLWqCzk-H82tQ
+DEBUG:logger:POST /dbproj/register/student - username: Nelson, email: nelson@gmail.com, district: Braga, balance: 3000
+INFO:logger:POST /dbproj/register - Student Nelson registered
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhcGluaGEifQ.6AwztXHZmpDLBkp091w0EzXY24wPQpgLWqCzk-H82tQ
+DEBUG:logger:POST /dbproj/register/staff - username: Hugo, email: hugo@gmail.com
+INFO:logger:POST /dbproj/register - Staff Hugo registered
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhcGluaGEifQ.6AwztXHZmpDLBkp091w0EzXY24wPQpgLWqCzk-H82tQ
+DEBUG:logger:POST /dbproj/register/instructor - username: instructor1, email: instructor1@example.com
+INFO:logger:POST /dbproj/register - Instructor instructor1 registered
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhcGluaGEifQ.6AwztXHZmpDLBkp091w0EzXY24wPQpgLWqCzk-H82tQ
+INFO:logger:PUT /dbproj/logout - user logged out
+DEBUG:logger:PUT /dbproj/user - username: Afonso
+INFO:logger:PUT /dbproj/user - user Afonso logged
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkFmb25zbyJ9.SBzjXqs4VvfzZgB8pkpeGB2Tb2hHkQ0DvHrnzdhO02c
+WARNING:logger:User Afonso does not have the required role: staff
+DEBUG:logger:PUT /dbproj/user - username: Capinha
+INFO:logger:PUT /dbproj/user - user Capinha logged
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhcGluaGEifQ.6AwztXHZmpDLBkp091w0EzXY24wPQpgLWqCzk-H82tQ
+DEBUG:logger:POST /dbproj/enroll_degree/ - degree: OS, student_number: 1001, enrollment_date: 2024-02-23
+WARNING:logger:POST /dbproj/enroll_degree - student not found
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhcGluaGEifQ.6AwztXHZmpDLBkp091w0EzXY24wPQpgLWqCzk-H82tQ
+DEBUG:logger:POST /dbproj/enroll_degree/ - degree: OS, student_number: 1, enrollment_date: 2024-02-23
+INFO:logger:POST /dbproj/enroll_degree - student ('Afonso',) enrolled in degree OS
+DEBUG:logger:PUT /dbproj/user - username: Afonso
+INFO:logger:PUT /dbproj/user - user Afonso logged
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkFmb25zbyJ9.SBzjXqs4VvfzZgB8pkpeGB2Tb2hHkQ0DvHrnzdhO02c
+DEBUG:logger:POST /dbproj/enroll_activity/1 - activity_id: 1
+WARNING:logger:POST /dbproj/enroll_activity/1 - activity not found
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkFmb25zbyJ9.SBzjXqs4VvfzZgB8pkpeGB2Tb2hHkQ0DvHrnzdhO02c
+DEBUG:logger:POST /dbproj/enroll_activity/Football - activity_id: Football
+INFO:logger:POST /dbproj/enroll_activity/Football - student Afonso enrolled in activity Football
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkFmb25zbyJ9.SBzjXqs4VvfzZgB8pkpeGB2Tb2hHkQ0DvHrnzdhO02c
+DEBUG:logger:POST /dbproj/enroll_course_edition/OS2025 - course_edition_id: OS2025
+INFO:logger:POST /dbproj/enroll_course_edition - student Afonso enrolled in course edition OS2025
+DEBUG:logger:PUT /dbproj/user - username: Ricardo
+INFO:logger:PUT /dbproj/user - user Ricardo logged
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlJpY2FyZG8ifQ.yoTd420OMAN1JgMW1ADRINNrufGChtJeNM5nXk6YuWg
+DEBUG:logger:POST /dbproj/submit_grades/OS2025 - period: Normal, grades: [['1', 15, '2024-02-23']]
+INFO:logger:POST /dbproj/submit_grades - instructor Ricardo submitted grades for course edition OS2025
+DEBUG:logger:PUT /dbproj/user - username: Capinha
+INFO:logger:PUT /dbproj/user - user Capinha logged
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhcGluaGEifQ.6AwztXHZmpDLBkp091w0EzXY24wPQpgLWqCzk-H82tQ
+DEBUG:logger:GET /dbproj/student_details/1 - student_id: 1
+INFO:logger:GET /dbproj/student_details - student ('Afonso',) details retrieved
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhcGluaGEifQ.6AwztXHZmpDLBkp091w0EzXY24wPQpgLWqCzk-H82tQ
+DEBUG:logger:GET /dbproj/degree_details/OS - degree_id: OS
+INFO:logger:GET /dbproj/degree_details - degree OS details retrieved
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhcGluaGEifQ.6AwztXHZmpDLBkp091w0EzXY24wPQpgLWqCzk-H82tQ
+DEBUG:logger:GET /dbproj/top3 - top 3 students
+INFO:logger:GET /dbproj/top3 - top 3 students retrieved
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhcGluaGEifQ.6AwztXHZmpDLBkp091w0EzXY24wPQpgLWqCzk-H82tQ
+DEBUG:logger:GET /dbproj/top_by_district - top students by district
+INFO:logger:GET /dbproj/top_by_district - top students by district retrieved
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhcGluaGEifQ.6AwztXHZmpDLBkp091w0EzXY24wPQpgLWqCzk-H82tQ
+DEBUG:logger:GET /dbproj/report - monthly report
+INFO:logger:GET /dbproj/report - monthly report generated
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhcGluaGEifQ.6AwztXHZmpDLBkp091w0EzXY24wPQpgLWqCzk-H82tQ
+DEBUG:logger:DELETE /dbproj/delete_details/1 - student_id: 1
+INFO:logger:DELETE /dbproj/delete_details - student ('Afonso',) deleted
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhcGluaGEifQ.6AwztXHZmpDLBkp091w0EzXY24wPQpgLWqCzk-H82tQ
+INFO:logger:PUT /dbproj/logout - user logged out
+DEBUG:logger:token: Bearer null
+WARNING:logger:No user authenticated
+DEBUG:logger:PUT /dbproj/user - username: Capinha
+INFO:logger:PUT /dbproj/user - user Capinha logged
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhcGluaGEifQ.6AwztXHZmpDLBkp091w0EzXY24wPQpgLWqCzk-H82tQ
+DEBUG:logger:GET /dbproj/degree_details/OS - degree_id: OS
+INFO:logger:GET /dbproj/degree_details - degree OS details retrieved
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhcGluaGEifQ.6AwztXHZmpDLBkp091w0EzXY24wPQpgLWqCzk-H82tQ
+DEBUG:logger:GET /dbproj/top3 - top 3 students
+INFO:logger:GET /dbproj/top3 - top 3 students retrieved
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+DEBUG:logger:PUT /dbproj/user - username: Capinha
+INFO:logger:PUT /dbproj/user - user Capinha logged
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhcGluaGEifQ.6AwztXHZmpDLBkp091w0EzXY24wPQpgLWqCzk-H82tQ
+DEBUG:logger:GET /dbproj/top3 - top 3 students
+INFO:logger:GET /dbproj/top3 - top 3 students retrieved
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhcGluaGEifQ.6AwztXHZmpDLBkp091w0EzXY24wPQpgLWqCzk-H82tQ
+DEBUG:logger:GET /dbproj/top_by_district - top students by district
+INFO:logger:GET /dbproj/top_by_district - top students by district retrieved
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhcGluaGEifQ.6AwztXHZmpDLBkp091w0EzXY24wPQpgLWqCzk-H82tQ
+DEBUG:logger:GET /dbproj/report - monthly report
+INFO:logger:GET /dbproj/report - monthly report generated
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+DEBUG:logger:PUT /dbproj/user - username: Afonso
+INFO:logger:PUT /dbproj/user - user Afonso logged
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkFmb25zbyJ9.SBzjXqs4VvfzZgB8pkpeGB2Tb2hHkQ0DvHrnzdhO02c
+DEBUG:logger:POST /dbproj/enroll_course_edition/OS2026 - course_edition_id: OS2026
+ERROR:logger:POST /dbproj/enroll_course_edition - error: FOR UPDATE is not allowed with aggregate functions
+
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkFmb25zbyJ9.SBzjXqs4VvfzZgB8pkpeGB2Tb2hHkQ0DvHrnzdhO02c
+WARNING:logger:User Afonso does not have the required role: staff
+DEBUG:logger:PUT /dbproj/user - username: Capinha
+INFO:logger:PUT /dbproj/user - user Capinha logged
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhcGluaGEifQ.6AwztXHZmpDLBkp091w0EzXY24wPQpgLWqCzk-H82tQ
+DEBUG:logger:GET /dbproj/top3 - top 3 students
+INFO:logger:GET /dbproj/top3 - top 3 students retrieved
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhcGluaGEifQ.6AwztXHZmpDLBkp091w0EzXY24wPQpgLWqCzk-H82tQ
+DEBUG:logger:GET /dbproj/top_by_district - top students by district
+INFO:logger:GET /dbproj/top_by_district - top students by district retrieved
+DEBUG:logger:PUT /dbproj/user - username: Afonso
+INFO:logger:PUT /dbproj/user - user Afonso logged
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkFmb25zbyJ9.SBzjXqs4VvfzZgB8pkpeGB2Tb2hHkQ0DvHrnzdhO02c
+DEBUG:logger:POST /dbproj/enroll_course_edition/OS2026 - course_edition_id: OS2026
+WARNING:logger:POST /dbproj/enroll_course_edition - class does not belong to the course edition
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkFmb25zbyJ9.SBzjXqs4VvfzZgB8pkpeGB2Tb2hHkQ0DvHrnzdhO02c
+DEBUG:logger:POST /dbproj/enroll_course_edition/OS2025 - course_edition_id: OS2025
+WARNING:logger:POST /dbproj/enroll_course_edition - student already enrolled in course edition
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkFmb25zbyJ9.SBzjXqs4VvfzZgB8pkpeGB2Tb2hHkQ0DvHrnzdhO02c
+DEBUG:logger:POST /dbproj/enroll_course_edition/OS2025 - course_edition_id: OS2025
+WARNING:logger:POST /dbproj/enroll_course_edition - student already enrolled in course edition
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+DEBUG:logger:PUT /dbproj/user - username: Capinha
+INFO:logger:PUT /dbproj/user - user Capinha logged
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+DEBUG:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhcGluaGEifQ.6AwztXHZmpDLBkp091w0EzXY24wPQpgLWqCzk-H82tQ
+DEBUG:logger:POST /dbproj/register/student - username: student1, email: student1@example.com, district: district1, balance: 1000
+INFO:logger:POST /dbproj/register - Student student1 registered
+DEBUG:logger:PUT /dbproj/user - username: Capinha
+INFO:logger:PUT /dbproj/user - user Capinha logged
+INFO:logger:API stubs online: http://127.0.0.1:8080

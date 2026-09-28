@@ -1,0 +1,439 @@
+{
+	"info": {
+		"_postman_id": "34755fa3-666a-49ca-8963-07520ca01352",
+		"name": "University API Stubs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43657383",
+		"_collection_link": "https://red-capsule-1042135.postman.co/workspace/Jos%C3%A9-Amado's-Workspace~0c5879f8-67e7-4c60-8bfe-07a8676f7bc3/collection/43657383-34755fa3-666a-49ca-8963-07520ca01352?action=share&source=collection_link&creator=43657383"
+	},
+	"item": [
+		{
+			"name": "Login User",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"let token = pm.response.json().results;\r",
+							"pm.collectionVariables.set(\"token\",token);"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"username\": \"Afonso\", \"password\": \"noCopas\"}"
+				},
+				"url": {
+					"raw": "localhost:8080/dbproj/user",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register Student",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"username\": \"Guijo\", \r\n\"email\": \"Guijo@gmail.com\", \r\n\"password\": \"07ativado\", \r\n\"district\": \"Lisboa\", \r\n\"balance\": \"3000\"}"
+				},
+				"url": {
+					"raw": "localhost:8080/dbproj/register/student",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"register",
+						"student"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register Staff",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"username\": \"guijo\", \"email\": \"guijo@gmail.com\", \"password\": \"paizinho\"}"
+				},
+				"url": {
+					"raw": "localhost:8080/dbproj/register/staff",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"register",
+						"staff"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register Instructor",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"username\": \"instructor1\", \"email\": \"instructor1@example.com\", \"password\": \"pass123\"}"
+				},
+				"url": {
+					"raw": "localhost:8080/dbproj/register/instructor",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"register",
+						"instructor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Enroll Degree",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"student_id\": \"1001\", \"date\": \"2024-02-23\"}"
+				},
+				"url": {
+					"raw": "localhost:8080/dbproj/enroll_degree/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"enroll_degree",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Enroll Activity",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "localhost:8080/dbproj/enroll_activity/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"enroll_activity",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Enroll Course Edition",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"classes\": [\"OS2025PL2\",\"OS2025PL3\"]}"
+				},
+				"url": {
+					"raw": "localhost:8080/dbproj/enroll_course_edition/OS2025",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"enroll_course_edition",
+						"OS2025"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Submit Grades",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"period\": \"Normal\", \"grades\": [[\"1\", 15, \"2024-02-23\"]]}"
+				},
+				"url": {
+					"raw": "localhost:8080/dbproj/submit_grades/OS2025",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"submit_grades",
+						"OS2025"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Student Details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/dbproj/student_details/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"student_details",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Degree Details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/dbproj/degree_details/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"degree_details",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Top 3 Students",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/dbproj/top3",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"top3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Top by District",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/dbproj/top_by_district",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"top_by_district"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Monthly Report",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/dbproj/report",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"report"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Student",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/dbproj/delete_details/1001",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"delete_details",
+						"1001"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Logout User",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"let token = pm.response.json().results;\r",
+							"pm.collectionVariables.set(\"token\",token);"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/dbproj/logout",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"logout"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "{{token}}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "token",
+			"value": "0",
+			"type": "string"
+		}
+	]
+}
